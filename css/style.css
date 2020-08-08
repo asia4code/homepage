@@ -1,0 +1,35 @@
+html {
+    max-width: 1000px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: white;
+    font-size: 15px;
+}
+
+.body--bigText {
+    font-size: 20px;
+}
+
+.paragraf {
+    max-width: 200px;
+    padding: 20px;
+}
+
+.changeBackground {
+    background-color: cyan;
+    font-size: 20px;
+}
+
+.changeText {
+    background-color: cyan;
+    font-size: 20px;
+}

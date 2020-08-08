@@ -1,0 +1,42 @@
+.section {
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgb(207, 241, 241);
+    text-align: justify;
+    color: darkcyan;
+    line-height: 1.7;
+    border: 2px dashed rgb(126, 199, 199);
+    border-radius: 15px;
+    -webkit-box-shadow: 17px 25px 24px 2px rgba(222, 222, 222);
+    -moz-box-shadow: 17px 25px 24px 2px rgba(222, 222, 222);
+    box-shadow: 17px 25px 24px 2px rgba(222, 222, 222);
+}
+
+.section-header {
+    max-width: 1000px;
+    background-color: white;
+    color:  darkcyan;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.section__header {
+    font-size: 40px;
+    text-align: center;
+}
+
+.section__header {
+    color: darkcyan;
+    text-align: center;
+    text-shadow: 17px 25px 24px rgba(222, 222, 222);
+}
+
+.section__header2 {
+    color: darkcyan;
+    text-align: center;
+    text-shadow: 17px 25px 24px rgba(222, 222, 222);
+}
+
+.section__list {
+    color: darkcyan;
+}

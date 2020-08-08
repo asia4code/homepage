@@ -1,0 +1,30 @@
+.navigation {
+    list-style: none;
+    padding: 2px;
+    text-align: center;
+    border-bottom: 5px solid darkcyan;
+}
+
+.navigation__item {
+    margin: 10px 0;
+}
+
+.navigation__link {
+    color: darkcyan;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    cursor: grab;
+    list-style-position: outside;
+    margin: 100px 0;
+}
+
+.navigation__link:hover {
+    color: red;
+    outline: none;
+}
+
+.navigation__link:active {
+    color: rgb(255, 51, 0);
+    outline: none;
+}
