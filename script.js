@@ -1,22 +1,34 @@
+{
 
-console.log("Cześć :)");
+    function welcome() {
+        console.log("Cześć :)");
+    }
 
+   
 
+    const toogleTextSize = () => {
+        const body = document.querySelector(".body");
+        const nextText = document.querySelector(".nextText");
 
+        body.classList.toggle("body--bigText");
+        nextText.innerText = body.classList.contains("body--bigText") ? "mniejszą" : "większą";
+    };
 
-let changeTextButton = document.querySelector(".changeText");
-let body = document.querySelector(".body");
-let nextText = document.querySelector(".nextText")
+    const init = () => {
+        const changeTextButton = document.querySelector(".changeText");
+        changeTextButton.addEventListener("click", toogleTextSize);
+    };
 
-changeTextButton.addEventListener("click", () => {
-    body.classList.toggle("body--bigText");
-    nextText.innerText = body.classList.contains("body--bigText") ? "mniejszą" : "większą";
-});
+const showTelnumber= () =>{
+     const showNumber = document.querySelector(".showNumber")
 
-
-let jsDutyButton = document.querySelector (".jsDuty");
-let showNumber = document.querySelector(".showNumber")
-
-jsDutyButton.addEventListener("click", () => {
-    showNumber.innerText="tel:123-456-780";
-});
+    showNumber.innerText = "tel:123-456-780";
+    };
+    const init2 = () => {
+        const jsDutyButton = document.querySelector(".jsDuty");
+    jsDutyButton.addEventListener("click", showTelnumber);
+    }
+    welcome();
+    init ();
+    init2();
+}
